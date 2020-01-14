@@ -1,7 +1,5 @@
 # vue-boilerplate
 
-[![license](https://img.shields.io/github/license/cntanglijun/vue-boilerplate.svg?style=for-the-badge)](https://github.com/cntanglijun/vue-boilerplate/blob/master/LICENSE)
-
 基于 vue 的单页开发模板
 
 ## 特性

@@ -1,7 +1,5 @@
 # react-boilerplate
 
-[![license](https://img.shields.io/github/license/cntanglijun/react-boilerplate.svg?style=for-the-badge)](https://github.com/cntanglijun/react-boilerplate/blob/master/LICENSE)
-
 基于 react 的单页开发模版
 
 ## 特性

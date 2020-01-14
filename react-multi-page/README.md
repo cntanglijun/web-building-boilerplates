@@ -1,7 +1,5 @@
 # react-multi-boilerplate
 
-[![license](https://img.shields.io/github/license/cntanglijun/react-multi-boilerplate.svg?style=for-the-badge)](https://github.com/cntanglijun/react-multi-boilerplate/blob/master/LICENSE)
-
 基于 react 的多页开发模版
 
 ## 特性

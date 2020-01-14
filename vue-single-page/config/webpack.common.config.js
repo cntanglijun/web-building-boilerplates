@@ -6,7 +6,7 @@ function isProd() {
   return process.env.NODE_ENV === 'production'
 }
 
-const baseConfig = {
+const config = {
   entry: path.resolve(__dirname, '../src/main.js'),
 
   output: {
@@ -114,4 +114,4 @@ const baseConfig = {
   }
 }
 
-module.exports = baseConfig
+module.exports = config

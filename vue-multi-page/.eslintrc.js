@@ -37,12 +37,6 @@ module.exports = {
     'no-eval': [ 'error' ],
     'no-extend-native': [ 'error' ],
     'no-floating-decimal': [ 'error' ],
-    'no-magic-numbers': [
-      'error',
-      {
-        ignoreArrayIndexes: true
-      }
-    ],
     'no-with': [ 'error' ]
   }
 }

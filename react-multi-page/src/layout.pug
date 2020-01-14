@@ -1,0 +1,21 @@
+doctype html
+html(xmlns="http://www.w3.org/1999/xhtml")
+  head
+    block before
+
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge, chrome=1")
+    meta(name="description", content=description)
+    meta(name="author", content=author)
+    title #{title || ''}
+    link(href=(favicon || './fav.png'), rel="shortcut icon")
+    link(href="//cdn.bootcss.com/normalize/5.0.0/normalize.min.css", rel="stylesheet")
+
+    block customer-meta
+  body
+    #root
+
+    block customer-content
+
+    block customer-footer

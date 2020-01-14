@@ -6,7 +6,6 @@
 
 - [x] webpack4
 - [x] vue2
-- [x] vue-router3
 - [x] pug/ejs
 - [x] sass/less/stylus
 - [x] hmr

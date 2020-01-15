@@ -1,6 +1,6 @@
-# vue-boilerplate
+# vue-multi-page
 
-A single-page development template base on vue
+A multi-page development template base on vue
 
 ## Features
 

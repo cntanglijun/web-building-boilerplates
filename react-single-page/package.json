@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "react-boilerplate",
-  "description": "基于 react 的单页开发模版",
+  "name": "react-single-page",
+  "description": "a single-page development template which base on react",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.config.js --colors",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --colors",

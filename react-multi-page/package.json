@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "react-multi-boilerplate",
-  "description": "基于 react 的多页开发模版",
+  "name": "react-multi-page",
+  "description": "a multi-page development template which base on react",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.config.js --colors",
+    "start": "cross-env NODE_ENV=development node nodemon.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --colors",
     "lint": "eslint src --ext .jsx",
     "test:unit": "karma start --single-run",
@@ -76,13 +76,5 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cntanglijun/react-multi-boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/cntanglijun/react-multi-boilerplate/issues"
-  },
-  "homepage": "https://github.com/cntanglijun/react-multi-boilerplate#readme"
+  }
 }

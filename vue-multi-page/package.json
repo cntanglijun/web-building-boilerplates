@@ -1,12 +1,12 @@
 {
-  "name": "vue-boilerplate",
+  "name": "vue-multi-page",
   "private": true,
-  "description": "基于 vue 的单页开发模版",
+  "description": "a multi-page development template which base on vue",
   "author": "cntanglijun",
   "scripts": {
-    "serve": "node prod.server.js",
-    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --colors",
     "start": "cross-env NODE_ENV=development node nodemon.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --colors",
+    "serve": "node prod.server.js",
     "lint": "eslint src --ext .vue,.js",
     "test:unit": "karma start --single-run",
     "test": "npm run lint && npm run test:unit"
@@ -78,17 +78,5 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
-  },
-  "bugs": {
-    "url": "https://github.com/cntanglijun/vue-boilerplate/issues"
-  },
-  "homepage": "https://github.com/cntanglijun/vue-boilerplate#readme",
-  "keywords": [
-    "vue-boilerplate"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cntanglijun/vue-boilerplate.git"
   }
 }

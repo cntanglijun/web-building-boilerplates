@@ -2,7 +2,7 @@
 
 A multi-page development template which base on react
 
-## 特性
+## Features
 
 - [x] webpack4
 - [x] react16
@@ -10,7 +10,7 @@ A multi-page development template which base on react
 - [x] hmr
 - [x] async/await
 
-## 如何使用
+## Usage
 
 ```bash
 # Install dependencies

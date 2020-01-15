@@ -1,8 +1,8 @@
-# vue-boilerplate
+# vue-single-page
 
-基于 vue 的单页开发模板
+A single-page development template which base on vue
 
-## 特性
+## Features
 
 - [x] webpack4
 - [x] vue2
@@ -10,41 +10,43 @@
 - [x] pug/ejs
 - [x] sass/less/stylus
 - [x] hmr
-- [x] support async/await
+- [x] async/await
 
-## 如何使用
+## Usage
 
-```txt
-git clone https://github.com/cntanglijun/vue-boilerplate.git <your-project-name>
+```bash
+# Install dependencies
 npm i
+
+# Then start development server by running start script
 npm start
 ```
 
-## 生产打包
+## Production building
 
 ```txt
 npm run build
 ```
 
-## 启动生产服务
+## Simulate production server
 
 ```txt
 npm run serve
 ```
 
-## 运行 Eslint
+## Run eslint
 
 ```txt
 npm run eslint
 ```
 
-## 单元测试
+## Unit test
 
 ```txt
 npm run test:unit
 ```
 
-## 综合测试
+## Full test
 
 ```txt
 npm run test

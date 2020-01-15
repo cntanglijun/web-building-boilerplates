@@ -1,6 +1,6 @@
 # vue-multi-page
 
-A multi-page development template base on vue
+A multi-page development template which base on vue
 
 ## Features
 
@@ -33,7 +33,7 @@ npm run build
 npm run serve
 ```
 
-## Running eslint
+## Run eslint
 
 ```txt
 npm run eslint

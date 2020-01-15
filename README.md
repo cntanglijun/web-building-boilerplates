@@ -1,10 +1,10 @@
-# web-building-boilerplate
+# web-building-boilerplates
 
 [![license](https://img.shields.io/github/license/cntanglijun/web-building-boilerplates.svg?style=for-the-badge)](https://github.com/cntanglijun/web-building-boilerplates/blob/master/LICENSE)
 
 A set of boilerplates for web-building
 
-## types
+## Types
 
 <table style="width: 100%; text-align: center; table-layout: fixed;">
   <thead style="font-weight: bold;">

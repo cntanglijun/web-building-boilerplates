@@ -1,5 +1,6 @@
 {
-  "ignore": [
-    "src"
+  "watch": [
+    "config/webpack.common.config.js",
+    "config/webpack.dev.config.js"
   ]
 }

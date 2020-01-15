@@ -1,7 +1,7 @@
 <template lang="pug">
 .index
   Header
-  h3 Home
+  h3 Index
   p {{ date }}
   a(href="./about/") Link to about
   Footer

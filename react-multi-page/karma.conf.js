@@ -14,7 +14,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/**/*.spec.js'
+      'test/unit/**/*.spec.js'
     ],
 
     // preprocess matching files before serving them to the browser

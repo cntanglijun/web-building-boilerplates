@@ -1,12 +1,22 @@
 module.exports = {
+  plugins: [
+    'react',
+    'cypress'
+  ],
   extends: [
-    'eslint:recommended'
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:cypress/recommended'
   ],
   parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module'
+  },
   env: {
     node: true,
     mocha: true,
-    browser: true
+    browser: true,
+    'cypress/globals': true
   },
   rules: {
     'accessor-pairs': [ 'error' ],
@@ -31,6 +41,8 @@ module.exports = {
     'no-extend-native': [ 'error' ],
     'no-floating-decimal': [ 'error' ],
     'no-with': [ 'error' ],
-    'semi': [ 'off' ]
+    'semi': [ 'off' ],
+    'react/jsx-curly-spacing': [ 'error', 'always' ],
+    'react/prefer-es6-class': [ 'error', 'always' ]
   }
 }

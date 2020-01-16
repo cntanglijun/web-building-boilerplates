@@ -18,6 +18,11 @@ module.exports = {
     browser: true,
     'cypress/globals': true
   },
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   rules: {
     'accessor-pairs': [ 'error' ],
     'array-callback-return': [ 'error' ],

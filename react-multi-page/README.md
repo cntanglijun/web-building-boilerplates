@@ -12,7 +12,7 @@ A multi-page development template which base on react
 
 ## Usage
 
-```bash
+```
 # Install dependencies
 npm i
 
@@ -22,30 +22,36 @@ npm start
 
 ## Production building
 
-```bash
+```
 npm run build
 ```
 
 ## Simulate production server
 
-```txt
+```
 npm run serve
 ```
 
 ## Run eslint
 
-```txt
+```
 npm run eslint
 ```
 
 ## Unit test
 
-```txt
+```
 npm run test:unit
+```
+
+## E2E test
+
+```
+npm run test:e2e
 ```
 
 ## Full test
 
-```txt
+```
 npm run test
 ```

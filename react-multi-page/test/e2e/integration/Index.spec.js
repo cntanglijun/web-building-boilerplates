@@ -1,4 +1,4 @@
-describe('The Home Page', function() {
+describe('The Index Page', function() {
   it('successfully loads', function() {
     cy.visit('/')
     cy.contains('Index')

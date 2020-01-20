@@ -6,10 +6,14 @@
     "start": "cross-env NODE_ENV=development node nodemon.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --colors",
     "lint": "eslint src --ext .jsx",
-    "test:unit": "karma start --single-run",
-    "test:e2e": "concurrently \"npm:serve\" \"cypress open\"",
-    "test": "npm run lint && npm run test:unit",
-    "serve": "node prod.server.js"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "serve": "node prod.server.js",
+    "test:unit": "karma start",
+    "test-ci:unit": "karma start --single-run",
+    "test:e2e": "start-server-and-test serve http://localhost:3000 cypress:open",
+    "test-ci:e2e": "start-server-and-test serve http://localhost:3000  cypress:run",
+    "test": "npm run lint && npm run test-ci:unit && npm run test-ci:e2e"
   },
   "husky": {
     "hooks": {
@@ -17,9 +21,6 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "keywords": [
-    "react-multi-boilerplate"
-  ],
   "author": "cntanglijun",
   "license": "MIT",
   "devDependencies": {
@@ -30,13 +31,13 @@
     "@babel/runtime": "^7.7.7",
     "@commitlint/cli": "^8.3.4",
     "@commitlint/config-conventional": "^8.3.4",
+    "@cypress/code-coverage": "^1.10.4",
     "@hot-loader/react-dom": "^16.11.0",
     "autoprefixer": "^9.7.3",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "chai": "^4.2.0",
     "clean-webpack-plugin": "^3.0.0",
-    "concurrently": "^5.0.2",
     "copy-webpack-plugin": "^5.1.1",
     "cross-env": "^6.0.3",
     "css-loader": "^3.4.1",
@@ -72,6 +73,7 @@
     "react-loadable": "^5.5.0",
     "react-router-dom": "^5.1.2",
     "sass-loader": "^8.0.0",
+    "start-server-and-test": "^1.10.6",
     "style-loader": "^1.1.2",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",

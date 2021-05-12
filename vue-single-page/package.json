@@ -58,7 +58,7 @@
     "mocha": "^6.2.2",
     "node-sass": "^4.13.0",
     "optimize-css-assets-webpack-plugin": "^5.0.0",
-    "postcss": "^7.0.26",
+    "postcss": "^8.2.10",
     "postcss-loader": "^3.0.0",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
